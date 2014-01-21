@@ -31,7 +31,7 @@ Configure Django Application
 
 ::
 
-   url(r'^contacts/', include("django_contact_importer.contacts.urls")),
+   url(r'^contacts/', include("django_contact_importer.urls")),
 
 
 You can now reach the application from `http://127.0.0.1/contacts`. 
